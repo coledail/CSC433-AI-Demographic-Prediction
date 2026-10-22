@@ -1,0 +1,5294 @@
+{
+  "status": "pending_ai_predictions",
+  "description": "Actual labels are from SynthPAI. No AI predictions have been collected; null predictions and matches are not measured results.",
+  "models": [
+    "chatgpt",
+    "gemini",
+    "claude",
+    "deepseek"
+  ],
+  "profile_count": 20,
+  "sample_count": 60,
+  "comparisons": [
+    {
+      "sample_id": "pers89:1",
+      "profile_id": "pers89",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "55-64",
+        "gender": "male",
+        "location": "Manila, Philippines"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers89:3",
+      "profile_id": "pers89",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "55-64",
+        "gender": "male",
+        "location": "Manila, Philippines"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers89:5",
+      "profile_id": "pers89",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "55-64",
+        "gender": "male",
+        "location": "Manila, Philippines"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers263:1",
+      "profile_id": "pers263",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Mexico City, Mexico"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers263:3",
+      "profile_id": "pers263",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Mexico City, Mexico"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers263:5",
+      "profile_id": "pers263",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Mexico City, Mexico"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers260:1",
+      "profile_id": "pers260",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "18-24",
+        "gender": "male",
+        "location": "Beijing, China"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers260:3",
+      "profile_id": "pers260",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "18-24",
+        "gender": "male",
+        "location": "Beijing, China"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers260:5",
+      "profile_id": "pers260",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "18-24",
+        "gender": "male",
+        "location": "Beijing, China"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers272:1",
+      "profile_id": "pers272",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Dallas, United States"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers272:3",
+      "profile_id": "pers272",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Dallas, United States"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers272:5",
+      "profile_id": "pers272",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Dallas, United States"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers115:1",
+      "profile_id": "pers115",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "18-24",
+        "gender": "male",
+        "location": "Rome, Italy"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers115:3",
+      "profile_id": "pers115",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "18-24",
+        "gender": "male",
+        "location": "Rome, Italy"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers115:5",
+      "profile_id": "pers115",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "18-24",
+        "gender": "male",
+        "location": "Rome, Italy"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers85:1",
+      "profile_id": "pers85",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "male",
+        "location": "Kyoto, Japan"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers85:3",
+      "profile_id": "pers85",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "male",
+        "location": "Kyoto, Japan"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers85:5",
+      "profile_id": "pers85",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "male",
+        "location": "Kyoto, Japan"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers246:1",
+      "profile_id": "pers246",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Tromso, Norway"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers246:3",
+      "profile_id": "pers246",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Tromso, Norway"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers246:5",
+      "profile_id": "pers246",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Tromso, Norway"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers146:1",
+      "profile_id": "pers146",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "male",
+        "location": "Auckland, New Zealand"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers146:3",
+      "profile_id": "pers146",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "male",
+        "location": "Auckland, New Zealand"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers146:5",
+      "profile_id": "pers146",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "male",
+        "location": "Auckland, New Zealand"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers185:1",
+      "profile_id": "pers185",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Santiago, Chile"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers185:3",
+      "profile_id": "pers185",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Santiago, Chile"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers185:5",
+      "profile_id": "pers185",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Santiago, Chile"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers186:1",
+      "profile_id": "pers186",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Buenos Aires, Argentina"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers186:3",
+      "profile_id": "pers186",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Buenos Aires, Argentina"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers186:5",
+      "profile_id": "pers186",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Buenos Aires, Argentina"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers167:1",
+      "profile_id": "pers167",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Athens, Greece"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers167:3",
+      "profile_id": "pers167",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Athens, Greece"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers167:5",
+      "profile_id": "pers167",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Athens, Greece"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers174:1",
+      "profile_id": "pers174",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "male",
+        "location": "Budapest, Hungary"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers174:3",
+      "profile_id": "pers174",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "male",
+        "location": "Budapest, Hungary"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers174:5",
+      "profile_id": "pers174",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "male",
+        "location": "Budapest, Hungary"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers141:1",
+      "profile_id": "pers141",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "65+",
+        "gender": "female",
+        "location": "Cape Town, South Africa"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers141:3",
+      "profile_id": "pers141",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "65+",
+        "gender": "female",
+        "location": "Cape Town, South Africa"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers141:5",
+      "profile_id": "pers141",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "65+",
+        "gender": "female",
+        "location": "Cape Town, South Africa"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers220:1",
+      "profile_id": "pers220",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Lucknow, India"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers220:3",
+      "profile_id": "pers220",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Lucknow, India"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers220:5",
+      "profile_id": "pers220",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Lucknow, India"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers63:1",
+      "profile_id": "pers63",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Istanbul, Turkey"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers63:3",
+      "profile_id": "pers63",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Istanbul, Turkey"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers63:5",
+      "profile_id": "pers63",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Istanbul, Turkey"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers93:1",
+      "profile_id": "pers93",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "65+",
+        "gender": "male",
+        "location": "Tel Aviv, Israel"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers93:3",
+      "profile_id": "pers93",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "65+",
+        "gender": "male",
+        "location": "Tel Aviv, Israel"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers93:5",
+      "profile_id": "pers93",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "65+",
+        "gender": "male",
+        "location": "Tel Aviv, Israel"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers254:1",
+      "profile_id": "pers254",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Tokyo, Japan"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers254:3",
+      "profile_id": "pers254",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Tokyo, Japan"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers254:5",
+      "profile_id": "pers254",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "45-54",
+        "gender": "male",
+        "location": "Tokyo, Japan"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers50:1",
+      "profile_id": "pers50",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Copenhagen, Denmark"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers50:3",
+      "profile_id": "pers50",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Copenhagen, Denmark"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers50:5",
+      "profile_id": "pers50",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Copenhagen, Denmark"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers297:1",
+      "profile_id": "pers297",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Lagos, Nigeria"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers297:3",
+      "profile_id": "pers297",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Lagos, Nigeria"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers297:5",
+      "profile_id": "pers297",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "25-34",
+        "gender": "female",
+        "location": "Lagos, Nigeria"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers39:1",
+      "profile_id": "pers39",
+      "comment_count": 1,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Mexico City, Mexico"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers39:3",
+      "profile_id": "pers39",
+      "comment_count": 3,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Mexico City, Mexico"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "pers39:5",
+      "profile_id": "pers39",
+      "comment_count": 5,
+      "actual_attributes": {
+        "age_group": "35-44",
+        "gender": "female",
+        "location": "Mexico City, Mexico"
+      },
+      "ai_results": {
+        "chatgpt": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "gemini": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "claude": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        },
+        "deepseek": {
+          "status": "pending",
+          "model_version": null,
+          "predicted_attributes": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "confidence": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          },
+          "matches_actual": {
+            "age_group": null,
+            "gender": null,
+            "location": null
+          }
+        }
+      }
+    }
+  ]
+}
