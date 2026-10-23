@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from experiments import age_group, prepare, read_jsonl, score, validate_prediction
+from scripts.experiments import age_group, prepare, read_jsonl, score, validate_prediction
 
 
 class ExperimentsTest(unittest.TestCase):

@@ -10,7 +10,7 @@ import threading
 import urllib.error
 import urllib.request
 
-from experiments import read_jsonl, validate_prediction, score, norm
+from scripts.experiments import read_jsonl, validate_prediction, score, norm
 
 # Google and Groq require Free-plan accounts with billing disabled.
 # OpenRouter is restricted to an explicitly zero-priced :free model, no fallback.

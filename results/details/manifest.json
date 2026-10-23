@@ -39,7 +39,7 @@
     "gemini-3.8-flash"
   ],
   "collection_status": "complete",
-  "exported_at": "2026-10-23T17:12:46.591452+00:00",
+  "exported_at": "2026-10-23T17:55:37.574970+00:00",
   "validated_responses_by_model": {
     "gemini35_flash_lite": 45,
     "gpt_oss20b": 45,

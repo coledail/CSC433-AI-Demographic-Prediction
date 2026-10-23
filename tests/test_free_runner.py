@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from run_free_experiments import MODELS, export, parse_prediction
+from scripts.run_free_experiments import MODELS, export, parse_prediction
 
 
 class RunnerTests(unittest.TestCase):
