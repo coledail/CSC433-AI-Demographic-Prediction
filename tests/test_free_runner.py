@@ -12,6 +12,21 @@ class RunnerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_prediction('I think the person is 30.')
 
+    def test_export_reads_published_responses_without_local_checkpoints(self):
+        labels=[{'sample_id':'a:1','profile_id':'a','comment_count':1,
+                 'actual_attributes':{'age_group':'25-34','gender':'male','location':'Rome, Italy'}}]
+        prediction={a:{'value':v,'confidence':0.8} for a,v in labels[0]['actual_attributes'].items()}
+        row={'sample_id':'a:1','model':next(iter(MODELS)), 'model_version':'test-version',
+             'collected_at':'2026-10-23','status':'ok','prediction':prediction}
+        with tempfile.TemporaryDirectory() as tmp:
+            directory=Path(tmp)
+            (directory/'responses.jsonl').write_text(json.dumps(row)+'\n')
+            export(directory,labels)
+            result=json.loads((directory/'comparison_results.json').read_text())
+            self.assertEqual(result['valid_predictions'],1)
+            export(directory,labels)
+            self.assertEqual(json.loads((directory/'comparison_results.json').read_text())['valid_predictions'],1)
+
     def test_partial_export_preserves_missing_status(self):
         labels=[{'sample_id':'a:1','profile_id':'a','comment_count':1,
                  'actual_attributes':{'age_group':'25-34','gender':'male','location':'Rome, Italy'}}]

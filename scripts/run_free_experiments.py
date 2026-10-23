@@ -130,7 +130,8 @@ def run_model(name, requests, directory, keys):
 
 
 def export(directory, labels):
-    responses = [r for name in MODELS for r in (read_jsonl(directory/f'{name}.jsonl') if (directory/f'{name}.jsonl').exists() else [])]
+    shared = read_jsonl(directory/'responses.jsonl') if (directory/'responses.jsonl').exists() else []
+    responses = [r for name in MODELS for r in (read_jsonl(directory/f'{name}.jsonl') if (directory/f'{name}.jsonl').exists() else [row for row in shared if row['model']==name])]
     valid = [r for r in responses if r['status']=='ok']
     (directory/'responses.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in valid))
     summary = score(labels, valid)
