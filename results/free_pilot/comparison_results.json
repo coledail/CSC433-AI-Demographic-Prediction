@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "complete",
   "profile_count": 15,
   "sample_count": 45,
   "models": {
@@ -21,7 +21,7 @@
     }
   },
   "expected_predictions": 180,
-  "valid_predictions": 162,
+  "valid_predictions": 180,
   "invalid_predictions": 0,
   "comparisons": [
     {
@@ -2549,7 +2549,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -2557,14 +2557,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -2642,22 +2642,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "35-44",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.4,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -2737,22 +2737,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "35-44",
             "gender": null,
-            "location": null
+            "location": "Buenos Aires, Argentina"
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.4,
+            "gender": 0.0,
+            "location": 0.6
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": true
           }
         },
         "gpt_oss20b": {
@@ -2828,7 +2828,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -2836,14 +2836,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -2921,22 +2921,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "25-34",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.4,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3016,22 +3016,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "25-34",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.4,
+            "gender": 0.0,
+            "location": 0.0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3107,7 +3107,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -3115,14 +3115,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3200,7 +3200,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -3208,14 +3208,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3295,7 +3295,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -3303,14 +3303,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3386,7 +3386,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -3394,14 +3394,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3479,7 +3479,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -3487,14 +3487,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3574,22 +3574,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "25-34",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.6,
+            "gender": 0.0,
+            "location": 0.0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3665,7 +3665,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -3673,14 +3673,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3758,22 +3758,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "25-34",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.4,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": true,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3853,22 +3853,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "25-34",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.4,
+            "gender": 0.0,
+            "location": 0.0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": true,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -3944,7 +3944,7 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
             "age_group": null,
@@ -3952,14 +3952,14 @@
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": false,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -4037,22 +4037,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "45-54",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.6,
+            "gender": 0.0,
+            "location": 0.0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": true,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {
@@ -4132,22 +4132,22 @@
       ],
       "ai_results": {
         "gemini35_flash_lite": {
-          "status": "pending",
+          "status": "ok",
           "model_version": "gemini-3.5-flash-lite",
           "predicted_attributes": {
-            "age_group": null,
+            "age_group": "45-54",
             "gender": null,
             "location": null
           },
           "confidence": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": 0.6,
+            "gender": 0,
+            "location": 0
           },
           "matches_actual": {
-            "age_group": null,
-            "gender": null,
-            "location": null
+            "age_group": true,
+            "gender": false,
+            "location": false
           }
         },
         "gpt_oss20b": {

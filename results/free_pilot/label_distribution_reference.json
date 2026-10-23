@@ -1,0 +1,17 @@
+{
+  "age_group": {
+    "most_common_label": "25-34",
+    "count": 5,
+    "n": 15
+  },
+  "gender": {
+    "most_common_label": "male",
+    "count": 9,
+    "n": 15
+  },
+  "location": {
+    "most_common_label": "Manila, Philippines",
+    "count": 1,
+    "n": 15
+  }
+}

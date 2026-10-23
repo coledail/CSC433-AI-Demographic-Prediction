@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import shutil
 from collections import Counter
+from datetime import datetime, timezone
 from run_free_experiments import MODELS, export
 from experiments import read_jsonl
 
@@ -28,11 +29,22 @@ def publish(source=Path('runs/free_pilot'), destination=Path('results/free_pilot
                        'error_count':len(rows),
                        'http_status_counts':dict(Counter(str(r.get('http_status',r.get('error_type'))) for r in rows))})
     (destination/'collection_errors.json').write_text(json.dumps(errors,indent=2)+'\n')
+    if (source/'collector_events.jsonl').exists():
+        shutil.copyfile(source/'collector_events.jsonl',destination/'collector_events.jsonl')
     if (source/'excluded_duplicates.jsonl').exists():
         shutil.copyfile(source/'excluded_duplicates.jsonl',destination/'excluded_duplicates.jsonl')
     responses=read_jsonl(source/'responses.jsonl')
     comparisons=json.loads((source/'comparison_results.json').read_text())
     summary=json.loads((source/'summary.json').read_text())
+    manifest=json.loads((source/'manifest.json').read_text())
+    manifest['collection_status']=comparisons['status']
+    manifest['exported_at']=datetime.now(timezone.utc).isoformat()
+    manifest['validated_responses_by_model']={name:sum(r['model']==name for r in responses) for name in MODELS}
+    manifest['observed_openrouter_cost_usd']=sum(r.get('usage',{}).get('cost',0) or 0 for r in responses if r.get('provider')=='openrouter')
+    (destination/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+    profiles={row['profile_id']:row['actual_attributes'] for row in labels}
+    baselines={attribute:{'most_common_label':counts.most_common(1)[0][0], 'count':counts.most_common(1)[0][1], 'n':len(profiles)} for attribute in ('age_group','gender','location') if (counts:=Counter(row[attribute] for row in profiles.values()))}
+    (destination/'label_distribution_reference.json').write_text(json.dumps(baselines,indent=2)+'\n')
     table=['| Model | Valid responses | Expected |','|---|---:|---:|']
     for alias,(_,model,_) in MODELS.items():
         n=sum(r['model']==alias for r in responses)
@@ -85,7 +97,10 @@ remain visible in the comparison JSON. Do not treat incomplete cells as comparab
 population estimates. For comparisons across models or text amounts, use the same
 profiles with valid predictions in every compared condition and report that N.
 Abstentions count as incorrect in accuracy; confidence summaries exclude abstentions.
-Model-reported confidence is not a calibrated probability. Location scoring is strict
+Model-reported confidence is not a calibrated probability. The cohort contains
+9 male labels out of 15: a constant male prediction scores 60% on gender. Treat
+that as a descriptive label-distribution reference, not a trained or held-out
+baseline. `label_distribution_reference.json` supplies the corresponding counts. Location scoring is strict
 city/country equality after case/whitespace normalization; aliases can lower accuracy.
 Gender uses the dataset's male/female labels. Age is evaluated in fixed bins.
 
@@ -102,6 +117,9 @@ Per-response settings preserve this change. Completed outputs were retained; no
 response was retried because of correctness. One collector restart overlapped a
 Qwen request; the first response was retained and the duplicate is preserved in
 `excluded_duplicates.jsonl`, outside the scoring denominator.
+Google's remaining samples were assigned to three disjoint worker partitions to
+reduce free-tier latency. A pending request may have been in flight at restart;
+no returned prediction was discarded. Completed checkpoints were retained.
 No payment details were entered and no billing upgrades were performed.
 
 ## Suggested evaluation work

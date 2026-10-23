@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import re
 import time
+import threading
 import urllib.error
 import urllib.request
 
@@ -13,8 +14,10 @@ from experiments import read_jsonl, validate_prediction, score, norm
 
 # Google and Groq require Free-plan accounts with billing disabled.
 # OpenRouter is restricted to an explicitly zero-priced :free model, no fallback.
+WRITE_LOCK = threading.Lock()
+
 MODELS = {
-    'gemini35_flash_lite': ('google', 'gemini-3.5-flash-lite', 8),
+    'gemini35_flash_lite': ('google', 'gemini-3.5-flash-lite', 12),
     'gpt_oss20b': ('groq', 'openai/gpt-oss-20b', 8),
     'qwen3_8_27b': ('groq', 'qwen/qwen3.8-27b', 8),
     'nemotron3_super': ('openrouter', 'nvidia/nemotron-3.5-lightning:free', 5),
@@ -38,7 +41,7 @@ def parse_prediction(text):
 
 
 def append(path, row):
-    with path.open('a', encoding='utf-8') as stream:
+    with WRITE_LOCK, path.open('a', encoding='utf-8') as stream:
         stream.write(json.dumps(row, ensure_ascii=False) + '\n')
         stream.flush()
 
@@ -159,6 +162,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('directory', type=Path)
     parser.add_argument('--collect',action='store_true')
+    parser.add_argument('--google-workers',type=int,choices=(1,2,3),default=1)
     args=parser.parse_args()
     labels=read_jsonl(args.directory/'labels.jsonl')
     if args.collect:
@@ -176,7 +180,11 @@ def main():
             # Google models run sequentially to share the project quota politely.
             def google_models():
                 for name in [n for n,v in MODELS.items() if v[0]=='google']:
-                    run_model(name, requests, args.directory, keys)
+                    with ThreadPoolExecutor(max_workers=args.google_workers) as google_pool:
+                        parts=[requests[i::args.google_workers] for i in range(args.google_workers)]
+                        jobs=[google_pool.submit(run_model,name,part,args.directory,keys) for part in parts]
+                        for job in jobs:
+                            job.result()
             futures=[pool.submit(google_models)]
             futures += [pool.submit(run_model,n,requests,args.directory,keys) for n,v in MODELS.items() if v[0]!='google']
             for future in futures:

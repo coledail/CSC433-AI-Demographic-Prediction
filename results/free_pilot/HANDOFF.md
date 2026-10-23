@@ -2,11 +2,11 @@
 
 ## Collection status
 
-STATUS: **PARTIAL**. These are real API responses, not generated example results.
+STATUS: **COMPLETE**. These are real API responses, not generated example results.
 
 | Model | Valid responses | Expected |
 |---|---:|---:|
-| gemini-3.5-flash-lite | 27 | 45 |
+| gemini-3.5-flash-lite | 45 | 45 |
 | openai/gpt-oss-20b | 45 | 45 |
 | qwen/qwen3.8-27b | 45 | 45 |
 | nvidia/nemotron-3.5-lightning:free | 45 | 45 |
@@ -15,9 +15,9 @@ STATUS: **PARTIAL**. These are real API responses, not generated example results
 
 | Model | Comments | Age-group accuracy | Gender accuracy | Exact location accuracy |
 |---|---:|---:|---:|---:|
-| gemini-3.5-flash-lite | 1 | 0.0% (9/15 valid) | 0.0% (9/15 valid) | 0.0% (9/15 valid) |
-| gemini-3.5-flash-lite | 3 | 11.1% (9/15 valid) | 0.0% (9/15 valid) | 22.2% (9/15 valid) |
-| gemini-3.5-flash-lite | 5 | 55.6% (9/15 valid) | 22.2% (9/15 valid) | 22.2% (9/15 valid) |
+| gemini-3.5-flash-lite | 1 | 0.0% (15/15 valid) | 0.0% (15/15 valid) | 0.0% (15/15 valid) |
+| gemini-3.5-flash-lite | 3 | 20.0% (15/15 valid) | 0.0% (15/15 valid) | 13.3% (15/15 valid) |
+| gemini-3.5-flash-lite | 5 | 46.7% (15/15 valid) | 13.3% (15/15 valid) | 20.0% (15/15 valid) |
 | openai/gpt-oss-20b | 1 | 46.7% (15/15 valid) | 53.3% (15/15 valid) | 6.7% (15/15 valid) |
 | openai/gpt-oss-20b | 3 | 40.0% (15/15 valid) | 66.7% (15/15 valid) | 13.3% (15/15 valid) |
 | openai/gpt-oss-20b | 5 | 33.3% (15/15 valid) | 53.3% (15/15 valid) | 13.3% (15/15 valid) |
@@ -55,7 +55,10 @@ remain visible in the comparison JSON. Do not treat incomplete cells as comparab
 population estimates. For comparisons across models or text amounts, use the same
 profiles with valid predictions in every compared condition and report that N.
 Abstentions count as incorrect in accuracy; confidence summaries exclude abstentions.
-Model-reported confidence is not a calibrated probability. Location scoring is strict
+Model-reported confidence is not a calibrated probability. The cohort contains
+9 male labels out of 15: a constant male prediction scores 60% on gender. Treat
+that as a descriptive label-distribution reference, not a trained or held-out
+baseline. `label_distribution_reference.json` supplies the corresponding counts. Location scoring is strict
 city/country equality after case/whitespace normalization; aliases can lower accuracy.
 Gender uses the dataset's male/female labels. Age is evaluated in fixed bins.
 
@@ -72,6 +75,9 @@ Per-response settings preserve this change. Completed outputs were retained; no
 response was retried because of correctness. One collector restart overlapped a
 Qwen request; the first response was retained and the duplicate is preserved in
 `excluded_duplicates.jsonl`, outside the scoring denominator.
+Google's remaining samples were assigned to three disjoint worker partitions to
+reduce free-tier latency. A pending request may have been in flight at restart;
+no returned prediction was discarded. Completed checkpoints were retained.
 No payment details were entered and no billing upgrades were performed.
 
 ## Suggested evaluation work

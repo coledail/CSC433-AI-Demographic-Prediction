@@ -100,7 +100,8 @@ The first command collects responses and resumes from per-model checkpoints. The
 Google and Groq accounts must remain on their Free plans; verify this before reusing
 the runner with a different account. The
 second only exports current comparisons and scores. Do not start concurrent copies
-for the same model. Daily quota errors stop that model; minute limits receive at most
+for the same model. For slow Google responses, `--google-workers 3` uses disjoint
+sample partitions; all workers share the same checkpoint. Daily quota errors stop that model; minute limits receive at most
 two retries. Network failures stop the affected model without discarding completed
 responses. Malformed model output is preserved and marked invalid, not repaired or
 retried based on correctness. Resume after quotas reset if needed. Errors and usage
@@ -117,13 +118,13 @@ marks them invalid or pending so incompleteness remains visible.
 `runs/free_pilot/comparison_results.json` pairs actual labels with real predictions.
 `summary.json` groups valid results by model/condition/attribute; its denominators
 cover valid responses only, so inspect completion and invalid counts before analysis.
-`manifest.json` records cohort and model changes. The older
-`runs/pilot/comparison_results.json` remains a pending template, not an empirical result.
+`manifest.json` records cohort and model changes. The legacy
+`runs/pilot/comparison_results.json` now mirrors the completed free-pilot snapshot.
 
 ## Status
 
 See `results/free_pilot/HANDOFF.md` for measured results and collection status.
-The original `runs/pilot/comparison_results.json` is a pending template.
+The legacy `runs/pilot/comparison_results.json` mirrors the completed free-pilot snapshot.
 Local checkpoints and credentials are ignored by Git; reviewed empirical artifacts
 are published under `results/free_pilot/`.
 

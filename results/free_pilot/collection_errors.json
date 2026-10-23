@@ -15,9 +15,9 @@
   },
   {
     "model_alias": "gemini35_flash_lite",
-    "error_count": 1,
+    "error_count": 8,
     "http_status_counts": {
-      "503": 1
+      "503": 8
     }
   },
   {
