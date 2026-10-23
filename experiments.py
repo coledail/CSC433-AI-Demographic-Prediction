@@ -114,7 +114,7 @@ def score(labels, responses):
         if key in seen:
             raise ValueError(f'Duplicate response: {key}')
         seen.add(key)
-        if row['model'] not in MODELS or not row.get('model_version') or not row.get('collected_at'):
+        if not isinstance(row.get('model'), str) or not row['model'].strip() or not row.get('model_version') or not row.get('collected_at'):
             raise ValueError('Model, model_version and collected_at are required')
         label = reference[row['sample_id']]
         prediction = validate_prediction(row['prediction'])

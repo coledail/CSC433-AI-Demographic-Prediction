@@ -76,8 +76,55 @@ are marked, and groups with zero responses have no report entry. The manifest re
 the source of expected models and sample counts. The summary supports Tabiya's later
 evaluation and privacy analysis; it does not claim causal or statistical significance.
 
-## Current status
+## Free API experiment (2026-10-23)
 
-The workflow has been tested with the real source dataset and unit tests. No live
-model responses or measured model results are included. Run outputs are ignored by
-Git. Collection and the resulting empirical conclusions remain to be completed.
+The $0 budget changes the original commercial-model lineup. The automated runner
+`run_free_experiments.py` uses Google Gemini 3.5 Flash-Lite, Groq GPT-OSS 20B and Qwen 3.8 27B,
+and OpenRouter Nemotron 3.5 Lightning (`:free`). These are model comparisons, not
+comparisons of ChatGPT, Claude or DeepSeek. GPT-OSS is an open-weight model hosted by Groq, not the ChatGPT product. The user confirmed Google Free tier with billing
+disabled. Groq must remain on the Free plan; no billing upgrades are performed. OpenRouter requests
+require zero prompt/completion prices and disable provider fallbacks.
+
+The free pilot uses the first 15 profiles from the original seeded 20-profile pilot,
+with 1/3/5 nested comments: 45 samples per model, 180 predictions total. This keeps
+OpenRouter requests within a small free daily allowance, allowing room for transient
+errors. Inputs and labels are unchanged for shared samples. Credentials stay in the
+ignored `.env` file and are never part of run artifacts.
+
+```sh
+python3 run_free_experiments.py runs/free_pilot --collect
+python3 run_free_experiments.py runs/free_pilot
+```
+
+The first command collects responses and resumes from per-model checkpoints. The
+Google and Groq accounts must remain on their Free plans; verify this before reusing
+the runner with a different account. The
+second only exports current comparisons and scores. Do not start concurrent copies
+for the same model. Daily quota errors stop that model; minute limits receive at most
+two retries. Network failures stop the affected model without discarding completed
+responses. Malformed model output is preserved and marked invalid, not repaired or
+retried based on correctness. Resume after quotas reset if needed. Errors and usage
+metadata remain available for audit. Raw model responses are untrusted text.
+
+API settings are recorded in each response. Temperature is zero. The initial output cap was 2048; Groq calls now use 512
+after free output-token quota rejections (all caps are recorded per response).
+there are no tools or prior conversation, and reasoning is disabled for Qwen and
+OpenRouter where supported; GPT-OSS uses low reasoning effort. Google Gemini is called with temperature and output cap
+only (default thinking settings). Exact returned model identifiers and finish reasons are retained; results with
+no valid structured output do not enter accuracy summaries. The comparison file
+marks them invalid or pending so incompleteness remains visible.
+
+`runs/free_pilot/comparison_results.json` pairs actual labels with real predictions.
+`summary.json` groups valid results by model/condition/attribute; its denominators
+cover valid responses only, so inspect completion and invalid counts before analysis.
+`manifest.json` records cohort and model changes. The older
+`runs/pilot/comparison_results.json` remains a pending template, not an empirical result.
+
+## Status
+
+See `results/free_pilot/HANDOFF.md` for measured results and collection status.
+The original `runs/pilot/comparison_results.json` is a pending template.
+Local checkpoints and credentials are ignored by Git; reviewed empirical artifacts
+are published under `results/free_pilot/`.
+
+To reproduce from published inputs, copy `results/free_pilot/` into a new local run directory, then invoke the runner on that directory. Existing validated responses seed checkpoints; remove response files only when intentionally starting a new independent trial.

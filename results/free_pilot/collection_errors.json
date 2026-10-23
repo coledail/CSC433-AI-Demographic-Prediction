@@ -1,0 +1,58 @@
+[
+  {
+    "model_alias": "gemini25_flash",
+    "error_count": 1,
+    "http_status_counts": {
+      "404": 1
+    }
+  },
+  {
+    "model_alias": "gemini25_flash_lite",
+    "error_count": 1,
+    "http_status_counts": {
+      "404": 1
+    }
+  },
+  {
+    "model_alias": "gemini35_flash_lite",
+    "error_count": 1,
+    "http_status_counts": {
+      "503": 1
+    }
+  },
+  {
+    "model_alias": "gemini38_flash",
+    "error_count": 1,
+    "http_status_counts": {
+      "TimeoutError": 1
+    }
+  },
+  {
+    "model_alias": "gemma4_26b",
+    "error_count": 1,
+    "http_status_counts": {
+      "500": 1
+    }
+  },
+  {
+    "model_alias": "gemma4_31b",
+    "error_count": 2,
+    "http_status_counts": {
+      "500": 2
+    }
+  },
+  {
+    "model_alias": "nemotron3_super",
+    "error_count": 1,
+    "http_status_counts": {
+      "404": 1
+    }
+  },
+  {
+    "model_alias": "qwen3_8_27b",
+    "error_count": 2,
+    "http_status_counts": {
+      "429": 2
+    }
+  }
+]
