@@ -1,0 +1,541 @@
+profile_id,sample_id,model,comment_count,attribute,actual,predicted,answered,correct,confidence
+pers89,pers89:1,gemini35_flash_lite,1,age_group,55-64,,0,0,
+pers89,pers89:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers89,pers89:1,gemini35_flash_lite,1,location,"Manila, Philippines",,0,0,
+pers89,pers89:1,gpt_oss20b,1,age_group,55-64,35-44,1,0,0.7
+pers89,pers89:1,gpt_oss20b,1,gender,male,male,1,1,0.6
+pers89,pers89:1,gpt_oss20b,1,location,"Manila, Philippines","City, Country",1,0,0.4
+pers89,pers89:1,qwen3_8_27b,1,age_group,55-64,35-44,1,0,0.6
+pers89,pers89:1,qwen3_8_27b,1,gender,male,male,1,1,0.7
+pers89,pers89:1,qwen3_8_27b,1,location,"Manila, Philippines",,0,0,
+pers89,pers89:1,nemotron3_super,1,age_group,55-64,35-44,1,0,0.6
+pers89,pers89:1,nemotron3_super,1,gender,male,male,1,1,0.85
+pers89,pers89:1,nemotron3_super,1,location,"Manila, Philippines","Coastal City, Country",1,0,0.4
+pers89,pers89:3,gemini35_flash_lite,3,age_group,55-64,35-44,1,0,0.4
+pers89,pers89:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers89,pers89:3,gemini35_flash_lite,3,location,"Manila, Philippines",,0,0,
+pers89,pers89:3,gpt_oss20b,3,age_group,55-64,35-44,1,0,0.7
+pers89,pers89:3,gpt_oss20b,3,gender,male,male,1,1,0.8
+pers89,pers89:3,gpt_oss20b,3,location,"Manila, Philippines","Seattle, USA",1,0,0.6
+pers89,pers89:3,qwen3_8_27b,3,age_group,55-64,35-44,1,0,0.6
+pers89,pers89:3,qwen3_8_27b,3,gender,male,male,1,1,0.7
+pers89,pers89:3,qwen3_8_27b,3,location,"Manila, Philippines",,0,0,
+pers89,pers89:3,nemotron3_super,3,age_group,55-64,35-44,1,0,0.6
+pers89,pers89:3,nemotron3_super,3,gender,male,male,1,1,0.7
+pers89,pers89:3,nemotron3_super,3,location,"Manila, Philippines","Coastal City, Country",1,0,0.5
+pers89,pers89:5,gemini35_flash_lite,5,age_group,55-64,35-44,1,0,0.4
+pers89,pers89:5,gemini35_flash_lite,5,gender,male,male,1,1,0.6
+pers89,pers89:5,gemini35_flash_lite,5,location,"Manila, Philippines",,0,0,
+pers89,pers89:5,gpt_oss20b,5,age_group,55-64,35-44,1,0,0.7
+pers89,pers89:5,gpt_oss20b,5,gender,male,male,1,1,0.8
+pers89,pers89:5,gpt_oss20b,5,location,"Manila, Philippines","Seattle, USA",1,0,0.6
+pers89,pers89:5,qwen3_8_27b,5,age_group,55-64,35-44,1,0,0.6
+pers89,pers89:5,qwen3_8_27b,5,gender,male,male,1,1,0.85
+pers89,pers89:5,qwen3_8_27b,5,location,"Manila, Philippines",,0,0,
+pers89,pers89:5,nemotron3_super,5,age_group,55-64,35-44,1,0,0.6
+pers89,pers89:5,nemotron3_super,5,gender,male,male,1,1,0.7
+pers89,pers89:5,nemotron3_super,5,location,"Manila, Philippines","Coastal City, Country",1,0,0.5
+pers263,pers263:1,gemini35_flash_lite,1,age_group,25-34,,0,0,
+pers263,pers263:1,gemini35_flash_lite,1,gender,female,,0,0,
+pers263,pers263:1,gemini35_flash_lite,1,location,"Mexico City, Mexico",Mexico,1,0,0.4
+pers263,pers263:1,gpt_oss20b,1,age_group,25-34,25-34,1,1,0.6
+pers263,pers263:1,gpt_oss20b,1,gender,female,female,1,1,0.4
+pers263,pers263:1,gpt_oss20b,1,location,"Mexico City, Mexico","Mexico City, Mexico",1,1,0.5
+pers263,pers263:1,qwen3_8_27b,1,age_group,25-34,25-34,1,1,0.6
+pers263,pers263:1,qwen3_8_27b,1,gender,female,,0,0,
+pers263,pers263:1,qwen3_8_27b,1,location,"Mexico City, Mexico","Mexico City, Mexico",1,1,0.7
+pers263,pers263:1,nemotron3_super,1,age_group,25-34,25-34,1,1,0.6
+pers263,pers263:1,nemotron3_super,1,gender,female,male,1,0,0.55
+pers263,pers263:1,nemotron3_super,1,location,"Mexico City, Mexico","Mexico City, Mexico",1,1,0.7
+pers263,pers263:3,gemini35_flash_lite,3,age_group,25-34,,0,0,
+pers263,pers263:3,gemini35_flash_lite,3,gender,female,,0,0,
+pers263,pers263:3,gemini35_flash_lite,3,location,"Mexico City, Mexico","Mexico City, Mexico",1,1,0.5
+pers263,pers263:3,gpt_oss20b,3,age_group,25-34,18-24,1,0,0.6
+pers263,pers263:3,gpt_oss20b,3,gender,female,female,1,1,0.4
+pers263,pers263:3,gpt_oss20b,3,location,"Mexico City, Mexico","Mexico City, Mexico",1,1,0.5
+pers263,pers263:3,qwen3_8_27b,3,age_group,25-34,18-24,1,0,0.6
+pers263,pers263:3,qwen3_8_27b,3,gender,female,,0,0,
+pers263,pers263:3,qwen3_8_27b,3,location,"Mexico City, Mexico","Mexico, Mexico",1,0,0.85
+pers263,pers263:3,nemotron3_super,3,age_group,25-34,under_18,1,0,0.3
+pers263,pers263:3,nemotron3_super,3,gender,female,male,1,0,0.5
+pers263,pers263:3,nemotron3_super,3,location,"Mexico City, Mexico",,0,0,
+pers263,pers263:5,gemini35_flash_lite,5,age_group,25-34,25-34,1,1,0.4
+pers263,pers263:5,gemini35_flash_lite,5,gender,female,,0,0,
+pers263,pers263:5,gemini35_flash_lite,5,location,"Mexico City, Mexico","Mexico City, Mexico",1,1,0.6
+pers263,pers263:5,gpt_oss20b,5,age_group,25-34,25-34,1,1,0.7
+pers263,pers263:5,gpt_oss20b,5,gender,female,female,1,1,0.5
+pers263,pers263:5,gpt_oss20b,5,location,"Mexico City, Mexico","Mexico City, Mexico",1,1,0.6
+pers263,pers263:5,qwen3_8_27b,5,age_group,25-34,25-34,1,1,0.6
+pers263,pers263:5,qwen3_8_27b,5,gender,female,female,1,1,0.4
+pers263,pers263:5,qwen3_8_27b,5,location,"Mexico City, Mexico","Mexico, Mexico",1,0,0.8
+pers263,pers263:5,nemotron3_super,5,age_group,25-34,under_18,1,0,0.3
+pers263,pers263:5,nemotron3_super,5,gender,female,,0,0,
+pers263,pers263:5,nemotron3_super,5,location,"Mexico City, Mexico",,0,0,
+pers260,pers260:1,gemini35_flash_lite,1,age_group,18-24,,0,0,
+pers260,pers260:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers260,pers260:1,gemini35_flash_lite,1,location,"Beijing, China",,0,0,
+pers260,pers260:1,gpt_oss20b,1,age_group,18-24,18-24,1,1,0.7
+pers260,pers260:1,gpt_oss20b,1,gender,male,male,1,1,0.5
+pers260,pers260:1,gpt_oss20b,1,location,"Beijing, China",,0,0,
+pers260,pers260:1,qwen3_8_27b,1,age_group,18-24,18-24,1,1,0.6
+pers260,pers260:1,qwen3_8_27b,1,gender,male,male,1,1,0.7
+pers260,pers260:1,qwen3_8_27b,1,location,"Beijing, China",,0,0,
+pers260,pers260:1,nemotron3_super,1,age_group,18-24,18-24,1,1,0.6
+pers260,pers260:1,nemotron3_super,1,gender,male,male,1,1,0.7
+pers260,pers260:1,nemotron3_super,1,location,"Beijing, China",,0,0,
+pers260,pers260:3,gemini35_flash_lite,3,age_group,18-24,25-34,1,0,0.4
+pers260,pers260:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers260,pers260:3,gemini35_flash_lite,3,location,"Beijing, China",,0,0,
+pers260,pers260:3,gpt_oss20b,3,age_group,18-24,18-24,1,1,0.6
+pers260,pers260:3,gpt_oss20b,3,gender,male,male,1,1,0.5
+pers260,pers260:3,gpt_oss20b,3,location,"Beijing, China",,0,0,
+pers260,pers260:3,qwen3_8_27b,3,age_group,18-24,18-24,1,1,0.65
+pers260,pers260:3,qwen3_8_27b,3,gender,male,male,1,1,0.55
+pers260,pers260:3,qwen3_8_27b,3,location,"Beijing, China",,0,0,
+pers260,pers260:3,nemotron3_super,3,age_group,18-24,18-24,1,1,0.6
+pers260,pers260:3,nemotron3_super,3,gender,male,male,1,1,0.55
+pers260,pers260:3,nemotron3_super,3,location,"Beijing, China",,0,0,
+pers260,pers260:5,gemini35_flash_lite,5,age_group,18-24,25-34,1,0,0.4
+pers260,pers260:5,gemini35_flash_lite,5,gender,male,,0,0,
+pers260,pers260:5,gemini35_flash_lite,5,location,"Beijing, China",,0,0,
+pers260,pers260:5,gpt_oss20b,5,age_group,18-24,18-24,1,1,0.6
+pers260,pers260:5,gpt_oss20b,5,gender,male,male,1,1,0.5
+pers260,pers260:5,gpt_oss20b,5,location,"Beijing, China",,0,0,
+pers260,pers260:5,qwen3_8_27b,5,age_group,18-24,18-24,1,1,0.65
+pers260,pers260:5,qwen3_8_27b,5,gender,male,male,1,1,0.55
+pers260,pers260:5,qwen3_8_27b,5,location,"Beijing, China",,0,0,
+pers260,pers260:5,nemotron3_super,5,age_group,18-24,25-34,1,0,0.6
+pers260,pers260:5,nemotron3_super,5,gender,male,male,1,1,0.55
+pers260,pers260:5,nemotron3_super,5,location,"Beijing, China",,0,0,
+pers272,pers272:1,gemini35_flash_lite,1,age_group,45-54,,0,0,
+pers272,pers272:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers272,pers272:1,gemini35_flash_lite,1,location,"Dallas, United States",,0,0,
+pers272,pers272:1,gpt_oss20b,1,age_group,45-54,25-34,1,0,0.4
+pers272,pers272:1,gpt_oss20b,1,gender,male,male,1,1,0.5
+pers272,pers272:1,gpt_oss20b,1,location,"Dallas, United States",,0,0,
+pers272,pers272:1,qwen3_8_27b,1,age_group,45-54,25-34,1,0,0.4
+pers272,pers272:1,qwen3_8_27b,1,gender,male,male,1,1,0.6
+pers272,pers272:1,qwen3_8_27b,1,location,"Dallas, United States",,0,0,
+pers272,pers272:1,nemotron3_super,1,age_group,45-54,25-34,1,0,0.5
+pers272,pers272:1,nemotron3_super,1,gender,male,male,1,1,0.6
+pers272,pers272:1,nemotron3_super,1,location,"Dallas, United States",,0,0,
+pers272,pers272:3,gemini35_flash_lite,3,age_group,45-54,,0,0,
+pers272,pers272:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers272,pers272:3,gemini35_flash_lite,3,location,"Dallas, United States",,0,0,
+pers272,pers272:3,gpt_oss20b,3,age_group,45-54,25-34,1,0,0.6
+pers272,pers272:3,gpt_oss20b,3,gender,male,male,1,1,0.7
+pers272,pers272:3,gpt_oss20b,3,location,"Dallas, United States",United States,1,0,0.5
+pers272,pers272:3,qwen3_8_27b,3,age_group,45-54,25-34,1,0,0.6
+pers272,pers272:3,qwen3_8_27b,3,gender,male,male,1,1,0.85
+pers272,pers272:3,qwen3_8_27b,3,location,"Dallas, United States",,0,0,
+pers272,pers272:3,nemotron3_super,3,age_group,45-54,25-34,1,0,0.6
+pers272,pers272:3,nemotron3_super,3,gender,male,male,1,1,0.7
+pers272,pers272:3,nemotron3_super,3,location,"Dallas, United States",,0,0,
+pers272,pers272:5,gemini35_flash_lite,5,age_group,45-54,45-54,1,1,0.4
+pers272,pers272:5,gemini35_flash_lite,5,gender,male,male,1,1,0.5
+pers272,pers272:5,gemini35_flash_lite,5,location,"Dallas, United States",,0,0,
+pers272,pers272:5,gpt_oss20b,5,age_group,45-54,35-44,1,0,0.6
+pers272,pers272:5,gpt_oss20b,5,gender,male,male,1,1,0.7
+pers272,pers272:5,gpt_oss20b,5,location,"Dallas, United States",United States,1,0,0.4
+pers272,pers272:5,qwen3_8_27b,5,age_group,45-54,55-64,1,0,0.65
+pers272,pers272:5,qwen3_8_27b,5,gender,male,male,1,1,0.75
+pers272,pers272:5,qwen3_8_27b,5,location,"Dallas, United States",,0,0,
+pers272,pers272:5,nemotron3_super,5,age_group,45-54,35-44,1,0,0.6
+pers272,pers272:5,nemotron3_super,5,gender,male,male,1,1,0.7
+pers272,pers272:5,nemotron3_super,5,location,"Dallas, United States",,0,0,
+pers115,pers115:1,gemini35_flash_lite,1,age_group,18-24,,0,0,
+pers115,pers115:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers115,pers115:1,gemini35_flash_lite,1,location,"Rome, Italy",,0,0,
+pers115,pers115:1,gpt_oss20b,1,age_group,18-24,18-24,1,1,0.5
+pers115,pers115:1,gpt_oss20b,1,gender,male,male,1,1,0.5
+pers115,pers115:1,gpt_oss20b,1,location,"Rome, Italy",,0,0,
+pers115,pers115:1,qwen3_8_27b,1,age_group,18-24,25-34,1,0,0.6
+pers115,pers115:1,qwen3_8_27b,1,gender,male,female,1,0,0.4
+pers115,pers115:1,qwen3_8_27b,1,location,"Rome, Italy",,0,0,
+pers115,pers115:1,nemotron3_super,1,age_group,18-24,18-24,1,1,0.7
+pers115,pers115:1,nemotron3_super,1,gender,male,male,1,1,0.85
+pers115,pers115:1,nemotron3_super,1,location,"Rome, Italy",,0,0,
+pers115,pers115:3,gemini35_flash_lite,3,age_group,18-24,,0,0,
+pers115,pers115:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers115,pers115:3,gemini35_flash_lite,3,location,"Rome, Italy",,0,0,
+pers115,pers115:3,gpt_oss20b,3,age_group,18-24,25-34,1,0,0.6
+pers115,pers115:3,gpt_oss20b,3,gender,male,female,1,0,0.5
+pers115,pers115:3,gpt_oss20b,3,location,"Rome, Italy","New York City, USA",1,0,0.4
+pers115,pers115:3,qwen3_8_27b,3,age_group,18-24,25-34,1,0,0.65
+pers115,pers115:3,qwen3_8_27b,3,gender,male,female,1,0,0.55
+pers115,pers115:3,qwen3_8_27b,3,location,"Rome, Italy",,0,0,
+pers115,pers115:3,nemotron3_super,3,age_group,18-24,25-34,1,0,0.6
+pers115,pers115:3,nemotron3_super,3,gender,male,male,1,1,0.55
+pers115,pers115:3,nemotron3_super,3,location,"Rome, Italy","Berlin, Germany",1,0,0.4
+pers115,pers115:5,gemini35_flash_lite,5,age_group,18-24,18-24,1,1,0.6
+pers115,pers115:5,gemini35_flash_lite,5,gender,male,,0,0,
+pers115,pers115:5,gemini35_flash_lite,5,location,"Rome, Italy",,0,0,
+pers115,pers115:5,gpt_oss20b,5,age_group,18-24,25-34,1,0,0.7
+pers115,pers115:5,gpt_oss20b,5,gender,male,female,1,0,0.6
+pers115,pers115:5,gpt_oss20b,5,location,"Rome, Italy",Italy,1,0,0.5
+pers115,pers115:5,qwen3_8_27b,5,age_group,18-24,18-24,1,1,0.85
+pers115,pers115:5,qwen3_8_27b,5,gender,male,male,1,1,0.6
+pers115,pers115:5,qwen3_8_27b,5,location,"Rome, Italy",Italy,1,0,0.7
+pers115,pers115:5,nemotron3_super,5,age_group,18-24,25-34,1,0,0.6
+pers115,pers115:5,nemotron3_super,5,gender,male,male,1,1,0.55
+pers115,pers115:5,nemotron3_super,5,location,"Rome, Italy",,0,0,
+pers85,pers85:1,gemini35_flash_lite,1,age_group,25-34,,0,0,
+pers85,pers85:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers85,pers85:1,gemini35_flash_lite,1,location,"Kyoto, Japan",,0,0,
+pers85,pers85:1,gpt_oss20b,1,age_group,25-34,25-34,1,1,0.4
+pers85,pers85:1,gpt_oss20b,1,gender,male,female,1,0,0.3
+pers85,pers85:1,gpt_oss20b,1,location,"Kyoto, Japan",,0,0,
+pers85,pers85:1,qwen3_8_27b,1,age_group,25-34,25-34,1,1,0.4
+pers85,pers85:1,qwen3_8_27b,1,gender,male,,0,0,
+pers85,pers85:1,qwen3_8_27b,1,location,"Kyoto, Japan",,0,0,
+pers85,pers85:1,nemotron3_super,1,age_group,25-34,25-34,1,1,0.6
+pers85,pers85:1,nemotron3_super,1,gender,male,male,1,1,0.55
+pers85,pers85:1,nemotron3_super,1,location,"Kyoto, Japan",,0,0,
+pers85,pers85:3,gemini35_flash_lite,3,age_group,25-34,,0,0,
+pers85,pers85:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers85,pers85:3,gemini35_flash_lite,3,location,"Kyoto, Japan",,0,0,
+pers85,pers85:3,gpt_oss20b,3,age_group,25-34,25-34,1,1,0.4
+pers85,pers85:3,gpt_oss20b,3,gender,male,male,1,1,0.4
+pers85,pers85:3,gpt_oss20b,3,location,"Kyoto, Japan",United States,1,0,0.3
+pers85,pers85:3,qwen3_8_27b,3,age_group,25-34,25-34,1,1,0.6
+pers85,pers85:3,qwen3_8_27b,3,gender,male,male,1,1,0.55
+pers85,pers85:3,qwen3_8_27b,3,location,"Kyoto, Japan",,0,0,
+pers85,pers85:3,nemotron3_super,3,age_group,25-34,25-34,1,1,0.6
+pers85,pers85:3,nemotron3_super,3,gender,male,male,1,1,0.55
+pers85,pers85:3,nemotron3_super,3,location,"Kyoto, Japan",,0,0,
+pers85,pers85:5,gemini35_flash_lite,5,age_group,25-34,,0,0,
+pers85,pers85:5,gemini35_flash_lite,5,gender,male,,0,0,
+pers85,pers85:5,gemini35_flash_lite,5,location,"Kyoto, Japan","Oslo, Norway",1,0,0.7
+pers85,pers85:5,gpt_oss20b,5,age_group,25-34,25-34,1,1,0.6
+pers85,pers85:5,gpt_oss20b,5,gender,male,female,1,0,0.5
+pers85,pers85:5,gpt_oss20b,5,location,"Kyoto, Japan","Oslo, Norway",1,0,0.7
+pers85,pers85:5,qwen3_8_27b,5,age_group,25-34,25-34,1,1,0.6
+pers85,pers85:5,qwen3_8_27b,5,gender,male,male,1,1,0.55
+pers85,pers85:5,qwen3_8_27b,5,location,"Kyoto, Japan","Stockholm, Sweden",1,0,0.85
+pers85,pers85:5,nemotron3_super,5,age_group,25-34,25-34,1,1,0.6
+pers85,pers85:5,nemotron3_super,5,gender,male,male,1,1,0.55
+pers85,pers85:5,nemotron3_super,5,location,"Kyoto, Japan",,0,0,
+pers246,pers246:1,gemini35_flash_lite,1,age_group,35-44,,0,0,
+pers246,pers246:1,gemini35_flash_lite,1,gender,female,,0,0,
+pers246,pers246:1,gemini35_flash_lite,1,location,"Tromso, Norway",,0,0,
+pers246,pers246:1,gpt_oss20b,1,age_group,35-44,,0,0,
+pers246,pers246:1,gpt_oss20b,1,gender,female,,0,0,
+pers246,pers246:1,gpt_oss20b,1,location,"Tromso, Norway",,0,0,
+pers246,pers246:1,qwen3_8_27b,1,age_group,35-44,,0,0,
+pers246,pers246:1,qwen3_8_27b,1,gender,female,,0,0,
+pers246,pers246:1,qwen3_8_27b,1,location,"Tromso, Norway",,0,0,
+pers246,pers246:1,nemotron3_super,1,age_group,35-44,under_18,1,0,0.3
+pers246,pers246:1,nemotron3_super,1,gender,female,male,1,0,0.5
+pers246,pers246:1,nemotron3_super,1,location,"Tromso, Norway",,0,0,
+pers246,pers246:3,gemini35_flash_lite,3,age_group,35-44,25-34,1,0,0.3
+pers246,pers246:3,gemini35_flash_lite,3,gender,female,,0,0,
+pers246,pers246:3,gemini35_flash_lite,3,location,"Tromso, Norway",,0,0,
+pers246,pers246:3,gpt_oss20b,3,age_group,35-44,18-24,1,0,0.6
+pers246,pers246:3,gpt_oss20b,3,gender,female,female,1,1,0.5
+pers246,pers246:3,gpt_oss20b,3,location,"Tromso, Norway","New York City, USA",1,0,0.4
+pers246,pers246:3,qwen3_8_27b,3,age_group,35-44,25-34,1,0,0.6
+pers246,pers246:3,qwen3_8_27b,3,gender,female,female,1,1,0.4
+pers246,pers246:3,qwen3_8_27b,3,location,"Tromso, Norway",,0,0,
+pers246,pers246:3,nemotron3_super,3,age_group,35-44,25-34,1,0,0.6
+pers246,pers246:3,nemotron3_super,3,gender,female,male,1,0,0.55
+pers246,pers246:3,nemotron3_super,3,location,"Tromso, Norway",,0,0,
+pers246,pers246:5,gemini35_flash_lite,5,age_group,35-44,25-34,1,0,0.4
+pers246,pers246:5,gemini35_flash_lite,5,gender,female,,0,0,
+pers246,pers246:5,gemini35_flash_lite,5,location,"Tromso, Norway",,0,0,
+pers246,pers246:5,gpt_oss20b,5,age_group,35-44,25-34,1,0,0.6
+pers246,pers246:5,gpt_oss20b,5,gender,female,female,1,1,0.5
+pers246,pers246:5,gpt_oss20b,5,location,"Tromso, Norway","New York City, USA",1,0,0.4
+pers246,pers246:5,qwen3_8_27b,5,age_group,35-44,25-34,1,0,0.65
+pers246,pers246:5,qwen3_8_27b,5,gender,female,female,1,1,0.55
+pers246,pers246:5,qwen3_8_27b,5,location,"Tromso, Norway",,0,0,
+pers246,pers246:5,nemotron3_super,5,age_group,35-44,under_18,1,0,0.3
+pers246,pers246:5,nemotron3_super,5,gender,female,male,1,0,0.5
+pers246,pers246:5,nemotron3_super,5,location,"Tromso, Norway",,0,0,
+pers146,pers146:1,gemini35_flash_lite,1,age_group,25-34,,0,0,
+pers146,pers146:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers146,pers146:1,gemini35_flash_lite,1,location,"Auckland, New Zealand",,0,0,
+pers146,pers146:1,gpt_oss20b,1,age_group,25-34,25-34,1,1,0.4
+pers146,pers146:1,gpt_oss20b,1,gender,male,female,1,0,0.3
+pers146,pers146:1,gpt_oss20b,1,location,"Auckland, New Zealand","New York, USA",1,0,0.2
+pers146,pers146:1,qwen3_8_27b,1,age_group,25-34,25-34,1,1,0.4
+pers146,pers146:1,qwen3_8_27b,1,gender,male,female,1,0,0.6
+pers146,pers146:1,qwen3_8_27b,1,location,"Auckland, New Zealand",,0,0,
+pers146,pers146:1,nemotron3_super,1,age_group,25-34,25-34,1,1,0.6
+pers146,pers146:1,nemotron3_super,1,gender,male,male,1,1,0.7
+pers146,pers146:1,nemotron3_super,1,location,"Auckland, New Zealand",,0,0,
+pers146,pers146:3,gemini35_flash_lite,3,age_group,25-34,,0,0,
+pers146,pers146:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers146,pers146:3,gemini35_flash_lite,3,location,"Auckland, New Zealand",,0,0,
+pers146,pers146:3,gpt_oss20b,3,age_group,25-34,25-34,1,1,0.6
+pers146,pers146:3,gpt_oss20b,3,gender,male,female,1,0,0.5
+pers146,pers146:3,gpt_oss20b,3,location,"Auckland, New Zealand","New York City, USA",1,0,0.5
+pers146,pers146:3,qwen3_8_27b,3,age_group,25-34,25-34,1,1,0.4
+pers146,pers146:3,qwen3_8_27b,3,gender,male,female,1,0,0.3
+pers146,pers146:3,qwen3_8_27b,3,location,"Auckland, New Zealand",,0,0,
+pers146,pers146:3,nemotron3_super,3,age_group,25-34,under_18,1,0,0.3
+pers146,pers146:3,nemotron3_super,3,gender,male,male,1,1,0.5
+pers146,pers146:3,nemotron3_super,3,location,"Auckland, New Zealand",,0,0,
+pers146,pers146:5,gemini35_flash_lite,5,age_group,25-34,25-34,1,1,0.4
+pers146,pers146:5,gemini35_flash_lite,5,gender,male,,0,0,
+pers146,pers146:5,gemini35_flash_lite,5,location,"Auckland, New Zealand",,0,0,
+pers146,pers146:5,gpt_oss20b,5,age_group,25-34,25-34,1,1,0.6
+pers146,pers146:5,gpt_oss20b,5,gender,male,female,1,0,0.5
+pers146,pers146:5,gpt_oss20b,5,location,"Auckland, New Zealand","New York, USA",1,0,0.4
+pers146,pers146:5,qwen3_8_27b,5,age_group,25-34,25-34,1,1,0.6
+pers146,pers146:5,qwen3_8_27b,5,gender,male,male,1,1,0.55
+pers146,pers146:5,qwen3_8_27b,5,location,"Auckland, New Zealand",Australia,1,0,0.7
+pers146,pers146:5,nemotron3_super,5,age_group,25-34,25-34,1,1,0.6
+pers146,pers146:5,nemotron3_super,5,gender,male,male,1,1,0.55
+pers146,pers146:5,nemotron3_super,5,location,"Auckland, New Zealand",,0,0,
+pers185,pers185:1,gemini35_flash_lite,1,age_group,25-34,,0,0,
+pers185,pers185:1,gemini35_flash_lite,1,gender,female,,0,0,
+pers185,pers185:1,gemini35_flash_lite,1,location,"Santiago, Chile",,0,0,
+pers185,pers185:1,gpt_oss20b,1,age_group,25-34,25-34,1,1,0.4
+pers185,pers185:1,gpt_oss20b,1,gender,female,male,1,0,0.3
+pers185,pers185:1,gpt_oss20b,1,location,"Santiago, Chile",United States,1,0,0.2
+pers185,pers185:1,qwen3_8_27b,1,age_group,25-34,25-34,1,1,0.6
+pers185,pers185:1,qwen3_8_27b,1,gender,female,,0,0,
+pers185,pers185:1,qwen3_8_27b,1,location,"Santiago, Chile",,0,0,
+pers185,pers185:1,nemotron3_super,1,age_group,25-34,under_18,1,0,0.3
+pers185,pers185:1,nemotron3_super,1,gender,female,male,1,0,0.5
+pers185,pers185:1,nemotron3_super,1,location,"Santiago, Chile",,0,0,
+pers185,pers185:3,gemini35_flash_lite,3,age_group,25-34,25-34,1,1,0.6
+pers185,pers185:3,gemini35_flash_lite,3,gender,female,,0,0,
+pers185,pers185:3,gemini35_flash_lite,3,location,"Santiago, Chile","Santiago, Chile",1,1,0.9
+pers185,pers185:3,gpt_oss20b,3,age_group,25-34,25-34,1,1,0.6
+pers185,pers185:3,gpt_oss20b,3,gender,female,female,1,1,0.4
+pers185,pers185:3,gpt_oss20b,3,location,"Santiago, Chile","Santiago, Chile",1,1,0.8
+pers185,pers185:3,qwen3_8_27b,3,age_group,25-34,25-34,1,1,0.85
+pers185,pers185:3,qwen3_8_27b,3,gender,female,female,1,1,0.6
+pers185,pers185:3,qwen3_8_27b,3,location,"Santiago, Chile","Santiago, Chile",1,1,0.95
+pers185,pers185:3,nemotron3_super,3,age_group,25-34,25-34,1,1,0.6
+pers185,pers185:3,nemotron3_super,3,gender,female,male,1,0,0.55
+pers185,pers185:3,nemotron3_super,3,location,"Santiago, Chile","Santiago, Chile",1,1,0.7
+pers185,pers185:5,gemini35_flash_lite,5,age_group,25-34,25-34,1,1,0.6
+pers185,pers185:5,gemini35_flash_lite,5,gender,female,,0,0,
+pers185,pers185:5,gemini35_flash_lite,5,location,"Santiago, Chile","Santiago, Chile",1,1,0.85
+pers185,pers185:5,gpt_oss20b,5,age_group,25-34,25-34,1,1,0.7
+pers185,pers185:5,gpt_oss20b,5,gender,female,female,1,1,0.6
+pers185,pers185:5,gpt_oss20b,5,location,"Santiago, Chile","Santiago, Chile",1,1,0.8
+pers185,pers185:5,qwen3_8_27b,5,age_group,25-34,25-34,1,1,0.85
+pers185,pers185:5,qwen3_8_27b,5,gender,female,female,1,1,0.6
+pers185,pers185:5,qwen3_8_27b,5,location,"Santiago, Chile","Santiago, Chile",1,1,0.95
+pers185,pers185:5,nemotron3_super,5,age_group,25-34,25-34,1,1,0.6
+pers185,pers185:5,nemotron3_super,5,gender,female,male,1,0,0.55
+pers185,pers185:5,nemotron3_super,5,location,"Santiago, Chile","Santiago, Chile",1,1,0.7
+pers186,pers186:1,gemini35_flash_lite,1,age_group,45-54,,0,0,
+pers186,pers186:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers186,pers186:1,gemini35_flash_lite,1,location,"Buenos Aires, Argentina",,0,0,
+pers186,pers186:1,gpt_oss20b,1,age_group,45-54,25-34,1,0,0.6
+pers186,pers186:1,gpt_oss20b,1,gender,male,female,1,0,0.4
+pers186,pers186:1,gpt_oss20b,1,location,"Buenos Aires, Argentina",,0,0,
+pers186,pers186:1,qwen3_8_27b,1,age_group,45-54,25-34,1,0,0.4
+pers186,pers186:1,qwen3_8_27b,1,gender,male,,0,0,
+pers186,pers186:1,qwen3_8_27b,1,location,"Buenos Aires, Argentina",,0,0,
+pers186,pers186:1,nemotron3_super,1,age_group,45-54,25-34,1,0,0.6
+pers186,pers186:1,nemotron3_super,1,gender,male,male,1,1,0.55
+pers186,pers186:1,nemotron3_super,1,location,"Buenos Aires, Argentina",,0,0,
+pers186,pers186:3,gemini35_flash_lite,3,age_group,45-54,35-44,1,0,0.4
+pers186,pers186:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers186,pers186:3,gemini35_flash_lite,3,location,"Buenos Aires, Argentina",,0,0,
+pers186,pers186:3,gpt_oss20b,3,age_group,45-54,25-34,1,0,0.7
+pers186,pers186:3,gpt_oss20b,3,gender,male,female,1,0,0.6
+pers186,pers186:3,gpt_oss20b,3,location,"Buenos Aires, Argentina","London, UK",1,0,0.6
+pers186,pers186:3,qwen3_8_27b,3,age_group,45-54,35-44,1,0,0.6
+pers186,pers186:3,qwen3_8_27b,3,gender,male,female,1,0,0.55
+pers186,pers186:3,qwen3_8_27b,3,location,"Buenos Aires, Argentina","Melbourne, Australia",1,0,0.4
+pers186,pers186:3,nemotron3_super,3,age_group,45-54,35-44,1,0,0.6
+pers186,pers186:3,nemotron3_super,3,gender,male,male,1,1,0.55
+pers186,pers186:3,nemotron3_super,3,location,"Buenos Aires, Argentina",,0,0,
+pers186,pers186:5,gemini35_flash_lite,5,age_group,45-54,35-44,1,0,0.4
+pers186,pers186:5,gemini35_flash_lite,5,gender,male,,0,0,
+pers186,pers186:5,gemini35_flash_lite,5,location,"Buenos Aires, Argentina","Buenos Aires, Argentina",1,1,0.6
+pers186,pers186:5,gpt_oss20b,5,age_group,45-54,25-34,1,0,0.7
+pers186,pers186:5,gpt_oss20b,5,gender,male,male,1,1,0.6
+pers186,pers186:5,gpt_oss20b,5,location,"Buenos Aires, Argentina","Sydney, Australia",1,0,0.5
+pers186,pers186:5,qwen3_8_27b,5,age_group,45-54,35-44,1,0,0.6
+pers186,pers186:5,qwen3_8_27b,5,gender,male,male,1,1,0.4
+pers186,pers186:5,qwen3_8_27b,5,location,"Buenos Aires, Argentina","Melbourne, Australia",1,0,0.7
+pers186,pers186:5,nemotron3_super,5,age_group,45-54,35-44,1,0,0.55
+pers186,pers186:5,nemotron3_super,5,gender,male,male,1,1,0.5
+pers186,pers186:5,nemotron3_super,5,location,"Buenos Aires, Argentina",,0,0,
+pers167,pers167:1,gemini35_flash_lite,1,age_group,35-44,,0,0,
+pers167,pers167:1,gemini35_flash_lite,1,gender,female,,0,0,
+pers167,pers167:1,gemini35_flash_lite,1,location,"Athens, Greece",,0,0,
+pers167,pers167:1,gpt_oss20b,1,age_group,35-44,35-44,1,1,0.4
+pers167,pers167:1,gpt_oss20b,1,gender,female,female,1,1,0.5
+pers167,pers167:1,gpt_oss20b,1,location,"Athens, Greece",,0,0,
+pers167,pers167:1,qwen3_8_27b,1,age_group,35-44,35-44,1,1,0.4
+pers167,pers167:1,qwen3_8_27b,1,gender,female,female,1,1,0.3
+pers167,pers167:1,qwen3_8_27b,1,location,"Athens, Greece",,0,0,
+pers167,pers167:1,nemotron3_super,1,age_group,35-44,35-44,1,1,0.6
+pers167,pers167:1,nemotron3_super,1,gender,female,male,1,0,0.55
+pers167,pers167:1,nemotron3_super,1,location,"Athens, Greece",,0,0,
+pers167,pers167:3,gemini35_flash_lite,3,age_group,35-44,25-34,1,0,0.4
+pers167,pers167:3,gemini35_flash_lite,3,gender,female,,0,0,
+pers167,pers167:3,gemini35_flash_lite,3,location,"Athens, Greece",,0,0,
+pers167,pers167:3,gpt_oss20b,3,age_group,35-44,35-44,1,1,0.6
+pers167,pers167:3,gpt_oss20b,3,gender,female,female,1,1,0.6
+pers167,pers167:3,gpt_oss20b,3,location,"Athens, Greece","City, Country",1,0,0.4
+pers167,pers167:3,qwen3_8_27b,3,age_group,35-44,35-44,1,1,0.6
+pers167,pers167:3,qwen3_8_27b,3,gender,female,male,1,0,0.4
+pers167,pers167:3,qwen3_8_27b,3,location,"Athens, Greece",,0,0,
+pers167,pers167:3,nemotron3_super,3,age_group,35-44,35-44,1,1,0.55
+pers167,pers167:3,nemotron3_super,3,gender,female,male,1,0,0.52
+pers167,pers167:3,nemotron3_super,3,location,"Athens, Greece",,0,0,
+pers167,pers167:5,gemini35_flash_lite,5,age_group,35-44,25-34,1,0,0.4
+pers167,pers167:5,gemini35_flash_lite,5,gender,female,,0,0,
+pers167,pers167:5,gemini35_flash_lite,5,location,"Athens, Greece",,0,0,
+pers167,pers167:5,gpt_oss20b,5,age_group,35-44,25-34,1,0,0.7
+pers167,pers167:5,gpt_oss20b,5,gender,female,female,1,1,0.6
+pers167,pers167:5,gpt_oss20b,5,location,"Athens, Greece","City, Country",1,0,0.4
+pers167,pers167:5,qwen3_8_27b,5,age_group,35-44,25-34,1,0,0.65
+pers167,pers167:5,qwen3_8_27b,5,gender,female,male,1,0,0.4
+pers167,pers167:5,qwen3_8_27b,5,location,"Athens, Greece",,0,0,
+pers167,pers167:5,nemotron3_super,5,age_group,35-44,25-34,1,0,0.6
+pers167,pers167:5,nemotron3_super,5,gender,female,male,1,0,0.55
+pers167,pers167:5,nemotron3_super,5,location,"Athens, Greece",,0,0,
+pers174,pers174:1,gemini35_flash_lite,1,age_group,35-44,,0,0,
+pers174,pers174:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers174,pers174:1,gemini35_flash_lite,1,location,"Budapest, Hungary",,0,0,
+pers174,pers174:1,gpt_oss20b,1,age_group,35-44,25-34,1,0,0.4
+pers174,pers174:1,gpt_oss20b,1,gender,male,female,1,0,0.3
+pers174,pers174:1,gpt_oss20b,1,location,"Budapest, Hungary","City, Country",1,0,0.2
+pers174,pers174:1,qwen3_8_27b,1,age_group,35-44,25-34,1,0,0.4
+pers174,pers174:1,qwen3_8_27b,1,gender,male,,0,0,
+pers174,pers174:1,qwen3_8_27b,1,location,"Budapest, Hungary",,0,0,
+pers174,pers174:1,nemotron3_super,1,age_group,35-44,35-44,1,1,0.5
+pers174,pers174:1,nemotron3_super,1,gender,male,male,1,1,0.6
+pers174,pers174:1,nemotron3_super,1,location,"Budapest, Hungary",,0,0,
+pers174,pers174:3,gemini35_flash_lite,3,age_group,35-44,,0,0,
+pers174,pers174:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers174,pers174:3,gemini35_flash_lite,3,location,"Budapest, Hungary",,0,0,
+pers174,pers174:3,gpt_oss20b,3,age_group,35-44,25-34,1,0,0.4
+pers174,pers174:3,gpt_oss20b,3,gender,male,female,1,0,0.4
+pers174,pers174:3,gpt_oss20b,3,location,"Budapest, Hungary","City, Country",1,0,0.2
+pers174,pers174:3,qwen3_8_27b,3,age_group,35-44,25-34,1,0,0.6
+pers174,pers174:3,qwen3_8_27b,3,gender,male,female,1,0,0.55
+pers174,pers174:3,qwen3_8_27b,3,location,"Budapest, Hungary",,0,0,
+pers174,pers174:3,nemotron3_super,3,age_group,35-44,25-34,1,0,0.55
+pers174,pers174:3,nemotron3_super,3,gender,male,male,1,1,0.52
+pers174,pers174:3,nemotron3_super,3,location,"Budapest, Hungary",,0,0,
+pers174,pers174:5,gemini35_flash_lite,5,age_group,35-44,,0,0,
+pers174,pers174:5,gemini35_flash_lite,5,gender,male,,0,0,
+pers174,pers174:5,gemini35_flash_lite,5,location,"Budapest, Hungary",,0,0,
+pers174,pers174:5,gpt_oss20b,5,age_group,35-44,25-34,1,0,0.4
+pers174,pers174:5,gpt_oss20b,5,gender,male,female,1,0,0.4
+pers174,pers174:5,gpt_oss20b,5,location,"Budapest, Hungary",United States,1,0,0.3
+pers174,pers174:5,qwen3_8_27b,5,age_group,35-44,25-34,1,0,0.65
+pers174,pers174:5,qwen3_8_27b,5,gender,male,female,1,0,0.75
+pers174,pers174:5,qwen3_8_27b,5,location,"Budapest, Hungary",,0,0,
+pers174,pers174:5,nemotron3_super,5,age_group,35-44,18-24,1,0,0.6
+pers174,pers174:5,nemotron3_super,5,gender,male,male,1,1,0.55
+pers174,pers174:5,nemotron3_super,5,location,"Budapest, Hungary",,0,0,
+pers141,pers141:1,gemini35_flash_lite,1,age_group,65+,,0,0,
+pers141,pers141:1,gemini35_flash_lite,1,gender,female,,0,0,
+pers141,pers141:1,gemini35_flash_lite,1,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:1,gpt_oss20b,1,age_group,65+,,0,0,
+pers141,pers141:1,gpt_oss20b,1,gender,female,,0,0,
+pers141,pers141:1,gpt_oss20b,1,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:1,qwen3_8_27b,1,age_group,65+,,0,0,
+pers141,pers141:1,qwen3_8_27b,1,gender,female,,0,0,
+pers141,pers141:1,qwen3_8_27b,1,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:1,nemotron3_super,1,age_group,65+,under_18,1,0,0.3
+pers141,pers141:1,nemotron3_super,1,gender,female,male,1,0,0.5
+pers141,pers141:1,nemotron3_super,1,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:3,gemini35_flash_lite,3,age_group,65+,,0,0,
+pers141,pers141:3,gemini35_flash_lite,3,gender,female,,0,0,
+pers141,pers141:3,gemini35_flash_lite,3,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:3,gpt_oss20b,3,age_group,65+,25-34,1,0,0.6
+pers141,pers141:3,gpt_oss20b,3,gender,female,female,1,1,0.5
+pers141,pers141:3,gpt_oss20b,3,location,"Cape Town, South Africa","New York City, USA",1,0,0.5
+pers141,pers141:3,qwen3_8_27b,3,age_group,65+,35-44,1,0,0.4
+pers141,pers141:3,qwen3_8_27b,3,gender,female,,0,0,
+pers141,pers141:3,qwen3_8_27b,3,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:3,nemotron3_super,3,age_group,65+,35-44,1,0,0.6
+pers141,pers141:3,nemotron3_super,3,gender,female,male,1,0,0.55
+pers141,pers141:3,nemotron3_super,3,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:5,gemini35_flash_lite,5,age_group,65+,25-34,1,0,0.6
+pers141,pers141:5,gemini35_flash_lite,5,gender,female,,0,0,
+pers141,pers141:5,gemini35_flash_lite,5,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:5,gpt_oss20b,5,age_group,65+,35-44,1,0,0.6
+pers141,pers141:5,gpt_oss20b,5,gender,female,male,1,0,0.5
+pers141,pers141:5,gpt_oss20b,5,location,"Cape Town, South Africa","City, Country",1,0,0.4
+pers141,pers141:5,qwen3_8_27b,5,age_group,65+,25-34,1,0,0.85
+pers141,pers141:5,qwen3_8_27b,5,gender,female,male,1,0,0.4
+pers141,pers141:5,qwen3_8_27b,5,location,"Cape Town, South Africa",,0,0,
+pers141,pers141:5,nemotron3_super,5,age_group,65+,25-34,1,0,0.6
+pers141,pers141:5,nemotron3_super,5,gender,female,male,1,0,0.55
+pers141,pers141:5,nemotron3_super,5,location,"Cape Town, South Africa",,0,0,
+pers220,pers220:1,gemini35_flash_lite,1,age_group,25-34,,0,0,
+pers220,pers220:1,gemini35_flash_lite,1,gender,female,,0,0,
+pers220,pers220:1,gemini35_flash_lite,1,location,"Lucknow, India",,0,0,
+pers220,pers220:1,gpt_oss20b,1,age_group,25-34,18-24,1,0,0.6
+pers220,pers220:1,gpt_oss20b,1,gender,female,female,1,1,0.4
+pers220,pers220:1,gpt_oss20b,1,location,"Lucknow, India","City, Country",1,0,0.3
+pers220,pers220:1,qwen3_8_27b,1,age_group,25-34,18-24,1,0,0.65
+pers220,pers220:1,qwen3_8_27b,1,gender,female,,0,0,
+pers220,pers220:1,qwen3_8_27b,1,location,"Lucknow, India",,0,0,
+pers220,pers220:1,nemotron3_super,1,age_group,25-34,under_18,1,0,0.3
+pers220,pers220:1,nemotron3_super,1,gender,female,male,1,0,0.5
+pers220,pers220:1,nemotron3_super,1,location,"Lucknow, India",,0,0,
+pers220,pers220:3,gemini35_flash_lite,3,age_group,25-34,25-34,1,1,0.4
+pers220,pers220:3,gemini35_flash_lite,3,gender,female,,0,0,
+pers220,pers220:3,gemini35_flash_lite,3,location,"Lucknow, India",,0,0,
+pers220,pers220:3,gpt_oss20b,3,age_group,25-34,25-34,1,1,0.6
+pers220,pers220:3,gpt_oss20b,3,gender,female,female,1,1,0.4
+pers220,pers220:3,gpt_oss20b,3,location,"Lucknow, India","City, Country",1,0,0.3
+pers220,pers220:3,qwen3_8_27b,3,age_group,25-34,25-34,1,1,0.65
+pers220,pers220:3,qwen3_8_27b,3,gender,female,female,1,1,0.4
+pers220,pers220:3,qwen3_8_27b,3,location,"Lucknow, India",,0,0,
+pers220,pers220:3,nemotron3_super,3,age_group,25-34,25-34,1,1,0.6
+pers220,pers220:3,nemotron3_super,3,gender,female,male,1,0,0.55
+pers220,pers220:3,nemotron3_super,3,location,"Lucknow, India",,0,0,
+pers220,pers220:5,gemini35_flash_lite,5,age_group,25-34,25-34,1,1,0.4
+pers220,pers220:5,gemini35_flash_lite,5,gender,female,,0,0,
+pers220,pers220:5,gemini35_flash_lite,5,location,"Lucknow, India",,0,0,
+pers220,pers220:5,gpt_oss20b,5,age_group,25-34,18-24,1,0,0.6
+pers220,pers220:5,gpt_oss20b,5,gender,female,,0,0,
+pers220,pers220:5,gpt_oss20b,5,location,"Lucknow, India",,0,0,
+pers220,pers220:5,qwen3_8_27b,5,age_group,25-34,25-34,1,1,0.85
+pers220,pers220:5,qwen3_8_27b,5,gender,female,female,1,1,0.6
+pers220,pers220:5,qwen3_8_27b,5,location,"Lucknow, India",,0,0,
+pers220,pers220:5,nemotron3_super,5,age_group,25-34,25-34,1,1,0.6
+pers220,pers220:5,nemotron3_super,5,gender,female,male,1,0,0.55
+pers220,pers220:5,nemotron3_super,5,location,"Lucknow, India",,0,0,
+pers63,pers63:1,gemini35_flash_lite,1,age_group,45-54,,0,0,
+pers63,pers63:1,gemini35_flash_lite,1,gender,male,,0,0,
+pers63,pers63:1,gemini35_flash_lite,1,location,"Istanbul, Turkey",,0,0,
+pers63,pers63:1,gpt_oss20b,1,age_group,45-54,35-44,1,0,0.4
+pers63,pers63:1,gpt_oss20b,1,gender,male,male,1,1,0.3
+pers63,pers63:1,gpt_oss20b,1,location,"Istanbul, Turkey","City, Country",1,0,0.2
+pers63,pers63:1,qwen3_8_27b,1,age_group,45-54,35-44,1,0,0.3
+pers63,pers63:1,qwen3_8_27b,1,gender,male,,0,0,
+pers63,pers63:1,qwen3_8_27b,1,location,"Istanbul, Turkey",,0,0,
+pers63,pers63:1,nemotron3_super,1,age_group,45-54,35-44,1,0,0.6
+pers63,pers63:1,nemotron3_super,1,gender,male,male,1,1,0.55
+pers63,pers63:1,nemotron3_super,1,location,"Istanbul, Turkey",,0,0,
+pers63,pers63:3,gemini35_flash_lite,3,age_group,45-54,45-54,1,1,0.6
+pers63,pers63:3,gemini35_flash_lite,3,gender,male,,0,0,
+pers63,pers63:3,gemini35_flash_lite,3,location,"Istanbul, Turkey",,0,0,
+pers63,pers63:3,gpt_oss20b,3,age_group,45-54,35-44,1,0,0.6
+pers63,pers63:3,gpt_oss20b,3,gender,male,,0,0,
+pers63,pers63:3,gpt_oss20b,3,location,"Istanbul, Turkey",,0,0,
+pers63,pers63:3,qwen3_8_27b,3,age_group,45-54,55-64,1,0,0.65
+pers63,pers63:3,qwen3_8_27b,3,gender,male,male,1,1,0.45
+pers63,pers63:3,qwen3_8_27b,3,location,"Istanbul, Turkey",,0,0,
+pers63,pers63:3,nemotron3_super,3,age_group,45-54,35-44,1,0,0.6
+pers63,pers63:3,nemotron3_super,3,gender,male,male,1,1,0.55
+pers63,pers63:3,nemotron3_super,3,location,"Istanbul, Turkey","City, Country",1,0,0.4
+pers63,pers63:5,gemini35_flash_lite,5,age_group,45-54,45-54,1,1,0.6
+pers63,pers63:5,gemini35_flash_lite,5,gender,male,,0,0,
+pers63,pers63:5,gemini35_flash_lite,5,location,"Istanbul, Turkey",,0,0,
+pers63,pers63:5,gpt_oss20b,5,age_group,45-54,25-34,1,0,0.6
+pers63,pers63:5,gpt_oss20b,5,gender,male,female,1,0,0.4
+pers63,pers63:5,gpt_oss20b,5,location,"Istanbul, Turkey","New York City, USA",1,0,0.5
+pers63,pers63:5,qwen3_8_27b,5,age_group,45-54,35-44,1,0,0.85
+pers63,pers63:5,qwen3_8_27b,5,gender,male,male,1,1,0.6
+pers63,pers63:5,qwen3_8_27b,5,location,"Istanbul, Turkey",United States,1,0,0.7
+pers63,pers63:5,nemotron3_super,5,age_group,45-54,35-44,1,0,0.6
+pers63,pers63:5,nemotron3_super,5,gender,male,male,1,1,0.55
+pers63,pers63:5,nemotron3_super,5,location,"Istanbul, Turkey",,0,0,
