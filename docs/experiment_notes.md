@@ -1,86 +1,60 @@
-# How we ran the experiment
+# Experiment Notes
 
-## The samples
+## Dataset and Samples
 
-We used 15 synthetic profiles from SynthPAI. These are made-up people, not real
-users. Comments were grouped by the dataset's author ID. We selected profiles
-before looking at model answers, using a fixed seed of 433 so the selection could
-be repeated. They are the first 15 profiles from our original 20-profile selection.
+We used 15 synthetic profiles from the SynthPAI dataset. Profiles were
+selected using a fixed seed of 433. Each profile had samples of 1, 3,
+and 5 comments.
 
-Each profile had three samples: 1, 3 and 5 comments. The smaller samples were
-included in the larger ones. Each of the four models received all 45 samples,
-which gave us 180 responses. Labels were kept out of model prompts.
+Four models received the same 45 samples, producing 180 responses.
+The correct demographic labels were hidden from the models.
 
-We kept the sample small enough to fit the free API quotas. This changed the
-original plan to compare ChatGPT, Gemini, Claude and DeepSeek. We actually tested:
+## Models
 
-| Model | Service used |
+| Model | API Provider |
 |---|---|
 | Gemini 3.5 Flash-Lite | Google |
 | GPT-OSS 20B | Groq |
 | Qwen 3.8 27B | Groq |
-| Nemotron 3.5 Lightning | OpenRouter, free version |
+| Nemotron 3.5 Lightning | OpenRouter |
 
-GPT-OSS is not the ChatGPT product. The full model IDs, source-file checksum and
-selection settings are in [the saved settings](../results/details/manifest.json).
+We used these models to stay within free API limits.
 
-## What the models saw
+## Experiment Settings
 
-Each request started with a fresh conversation and had no browsing or other tools.
-We asked for an age group, a gender label, a city and country, and confidence from
-0 to 1 for each answer. Models could leave a value as `null` with confidence 0 if
-they did not want to guess. We used the same prompts for every model.
+- Temperature: 0
+- Fresh conversation for each request
+- No browsing or external tools
+- Confidence scores between 0 and 1
+- Null values allowed for unanswered predictions
+- Output limit: 2048 tokens, reduced to 512 for later Groq requests
 
-Temperature was 0. The original maximum output allowance was 2048 tokens. Groq
-rejected some requests because that exceeded a free quota, so later Groq requests
-used 512. Every saved response records its allowance. All final responses ended
-normally; none were cut off. Qwen and Nemotron had reasoning disabled where
-supported. GPT-OSS used low reasoning effort; Google used its defaults.
+## Evaluation
 
-## How answers were checked
+Predictions were compared against the known demographic labels.
+We ignored capitalization and extra spaces. Location required an
+exact city and country match.
 
-Age was compared using these groups: under 18, 18–24, 25–34, 35–44, 45–54,
-55–64 and 65+. Gender followed the dataset's male/female labels; this does not
-represent every gender identity.
+We measured accuracy, coverage, answered-only accuracy, and
+confidence error. We also used the most common label for each
+attribute as a baseline.
 
-Location had to match the city and country. We ignored letter case and extra
-spaces, but did not fix alternate spellings or place names. Review those mismatches
-before interpreting the location scores.
+Unanswered predictions counted as incorrect for overall accuracy.
 
-A model choosing not to answer counts as incorrect for accuracy. Coverage means
-how often it answered at all. Confidence analysis uses answered questions only.
-A high confidence score is the model's own claim, not proof that it is right.
-The summary compares those scores with whether the answers were correct.
+## Collection Issues
 
-There were 9 male labels out of 15 profiles. Always guessing male would therefore
-score 60%. This is useful context, not a separately trained baseline. Counts for
-the other labels are in `results/details/label_distribution_reference.json`.
+Some API requests failed due to service errors and free usage limits.
+One duplicate Qwen response was excluded, and the first response
+was kept regardless of correctness.
 
-## Collection issues
+## Limitations
 
-Some Google Gemma endpoints failed, older Gemini endpoints rejected new accounts,
-and Gemini 3.8 timed out before producing an answer. We used the working models
-listed above. The first Nemotron endpoint also failed before producing an answer.
-We did not choose a model or repeat an answer because it scored poorly.
+The experiment used only 15 synthetic profiles and four models.
+The results may not represent real users. Confidence scores were
+self-reported and may not be reliable.
 
-Temporary service errors and rate limits were retried. One Qwen request overlapped
-when a collector restarted. We kept the first answer regardless of correctness and
-saved the extra answer separately. Google later used three workers with different
-samples to reduce waiting. A pending request may have been in flight at restart;
-no returned answer was discarded.
+## Results
 
-The supporting files include error counts, the extra Qwen response and collection
-notes. Full provider error messages and API keys stay local. Google billing was
-confirmed disabled, no billing upgrades were made, and OpenRouter reported zero
-cost for the saved responses.
-
-## What Tabiya can do next
-
-Use [the comparison file](../results/comparison_results.json) for tables and graphs.
-Compare accuracy across models and comment counts, and look at how confidence
-relates to correct answers. Keep the same profiles in each comparison.
-
-There are only 15 synthetic profiles. Small demographic groups may have too few
-examples to compare fairly. These results don't establish real-world identity
-inference, large-scale privacy risk or firm rankings between models. More text
-also did not consistently improve accuracy.
+- [Experiment settings](../results/details/manifest.json)
+- [Saved predictions](../results/comparison_results.json)
+- [Evaluation results](../evaluations/)

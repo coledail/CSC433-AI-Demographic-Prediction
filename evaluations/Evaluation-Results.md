@@ -38,8 +38,6 @@ For complete results across all three comment conditions, confidence diagnostics
 
 ## Evaluation figures
 
-All figures are generated from the saved predictions. **PNG files** are suitable for presentation slides; matching **vector PDFs** can be included in the LaTeX report.
-
 ### 1. Model accuracy at five comments
 
 ![Grouped comparison of age-group, gender, and location accuracy for the four models, using five comments per profile.](figures/model_accuracy.png)

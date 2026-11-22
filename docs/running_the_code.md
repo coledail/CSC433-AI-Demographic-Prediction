@@ -86,3 +86,26 @@ python3 -m scripts.main
 This script needs `pandas` and Hugging Face access through `fsspec` and `huggingface_hub`.
 It saves the original prompt files in `data/original/`. The grouped experiment above
 is the version used for the finished model comparison.
+
+## Run the evaluation
+
+Run these commands from the main project folder.
+
+```sh
+python3 evaluations/evaluate.py
+```
+
+To generate the graphs, install Matplotlib and run:
+
+```sh
+python3 -m pip install matplotlib
+python3 evaluations/visualize.py
+```
+
+The evaluation produces:
+
+- `evaluations/outputs/` - Evaluation results in CSV format.
+- `evaluations/figures/` - Graphs in PNG and PDF formats.
+
+No API keys are required to evaluate the saved predictions or generate the graphs.
+
